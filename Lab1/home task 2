@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cctype> // for toupper()
+using namespace std;
+
+int main()
+{
+    char small;
+    cout << "Enter a small alphabet: ";
+    cin >> small;
+
+    char capital = toupper(small);
+    cout << "Upper case: " << capital << endl;
+    return 0;
+}

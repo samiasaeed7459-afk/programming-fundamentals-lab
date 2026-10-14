@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main( )
+{
+	int a,b;
+	cout<<"Enter two integers:";
+	cin>>a>>b;
+	cout<<"sum:"<<a+b<<"\n";
+	cout<<"substraction:"<<a-b<<"\n";
+	cout<<"Multiplication:"<<a*b<<"\n";
+	if(b!=0)
+	cout<<"Division:"<<a/b<<"\n";
+	else
+	cout<<"Division:cannot divide by zero\n";
+	return 0;
+}
+
