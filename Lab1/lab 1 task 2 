@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main( )
+{
+	cout<< "your are 10 years old."<< endl;
+	cout<<"you are too young to play in the ground."<<endl;
+	return 0;
+}
